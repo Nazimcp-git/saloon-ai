@@ -10,7 +10,9 @@
 - **Person Detection** — YOLOv8 nano model (fast, CPU-friendly)
 - **Centroid Tracking** — Assigns temporary IDs to customers
 - **Line-Crossing Counter** — Entry/exit detection with double-count prevention
-- **Real-Time Dashboard** — Live stats + hourly traffic chart
+- **Chair-Based Customer Detection** — Optional interactive chair zones for accurate counting
+- **Automated Customer Captures** — Automatically saves customer photos when they are counted
+- **Real-Time Dashboard** — Live stats + hourly traffic chart + recent captures gallery
 - **Local Storage** — JSON + CSV timestamped records
 - **Firebase Ready** — Optional cloud storage (toggle on/off)
 - **Extension Hooks** — Gender detection, face recognition, alerts (stubs)
@@ -107,8 +109,10 @@ Edit `config.py` to customize:
 | `CONFIDENCE_THRESHOLD` | `0.5` | Detection confidence (0.0–1.0) |
 | `FRAME_SKIP` | `3` | Process every Nth frame |
 | `RESIZE_WIDTH` | `640` | Frame resize for speed |
-| `LINE_POSITION` | `0.5` | Counting line (0=top, 1=bottom) |
-| `LINE_DIRECTION` | `down` | Entry direction |
+| `ENABLE_TRACKING`| `True` | Toggle tracking & counting logic |
+| `DIRECTION_MODE` | `both` | `"entry"`, `"exit"`, or `"both"` |
+| `CHAIR_DETECTION_ENABLED` | `True` | Toggle chair customer detection |
+| `CHAIR_MIN_SITTING_TIME` | `180` | Min sitting time in seconds |
 | `FIREBASE_ENABLED` | `False` | Toggle Firebase |
 | `DEBUG_MODE` | `True` | Show video window |
 
@@ -120,6 +124,9 @@ Edit `config.py` to customize:
 |-----|--------|
 | `q` | Quit |
 | `r` | Reset counters |
+| `c` | Toggle Chair Setup Mode |
+| `s` | Save drawn chair zones (in Setup Mode) |
+| `z` | Clear all chair zones (in Setup Mode) |
 
 ---
 
@@ -169,6 +176,12 @@ python main.py --source 1  # Camera 2
 - Increase `FRAME_SKIP` to 5+ on slow machines
 - Reduce `RESIZE_WIDTH` to 320 for very low-end systems
 - Use `--no-display` for headless server deployments
+
+---
+
+## Author
+
+**Nazim**
 
 ---
 
