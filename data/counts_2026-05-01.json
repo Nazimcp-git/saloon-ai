@@ -1,0 +1,465 @@
+{
+  "date": "2026-05-01",
+  "records": [
+    {
+      "timestamp": "2026-05-01T16:41:08.400720",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0
+    },
+    {
+      "timestamp": "2026-05-01T16:41:38.494237",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0
+    },
+    {
+      "timestamp": "2026-05-01T16:42:08.495044",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0
+    },
+    {
+      "timestamp": "2026-05-01T16:42:38.658811",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0
+    },
+    {
+      "timestamp": "2026-05-01T16:43:08.712425",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0
+    },
+    {
+      "timestamp": "2026-05-01T16:43:17.147418",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:05:54.252123",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:06:24.278669",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:06:54.293236",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:07:20.771992",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:07:57.643771",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:08:27.742722",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:08:29.982421",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:09:17.036352",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:09:47.137097",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:10:17.141105",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:10:47.146868",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:11:17.237718",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:11:47.244963",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:12:17.334010",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:12:47.334590",
+      "entered": 1,
+      "exited": 0,
+      "inside": 1,
+      "chair_count": 0,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T17:13:17.338120",
+      "entered": 1,
+      "exited": 0,
+      "inside": 1,
+      "chair_count": 0,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T17:13:47.452145",
+      "entered": 1,
+      "exited": 0,
+      "inside": 1,
+      "chair_count": 0,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T17:14:17.489839",
+      "entered": 1,
+      "exited": 0,
+      "inside": 1,
+      "chair_count": 0,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T17:14:47.575514",
+      "entered": 1,
+      "exited": 0,
+      "inside": 1,
+      "chair_count": 0,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T17:15:17.672207",
+      "entered": 1,
+      "exited": 0,
+      "inside": 1,
+      "chair_count": 0,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T17:15:47.759267",
+      "entered": 1,
+      "exited": 0,
+      "inside": 1,
+      "chair_count": 0,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T17:16:17.799221",
+      "entered": 1,
+      "exited": 0,
+      "inside": 1,
+      "chair_count": 0,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T17:16:22.673089",
+      "entered": 1,
+      "exited": 0,
+      "inside": 1,
+      "chair_count": 0,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T17:17:10.209042",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:23:12.475554",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:23:42.565135",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:24:12.693202",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:24:42.793298",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:24:59.584754",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T17:25:14.857286",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T21:40:43.237541",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T21:41:13.269293",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T21:41:43.359404",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T21:42:13.494028",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T21:42:43.655229",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T21:43:13.665133",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T21:43:43.680693",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 1,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T21:44:13.863562",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 1,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T21:44:42.634304",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 1,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T21:51:53.317937",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T21:52:23.433189",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T21:52:53.721116",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T21:53:23.824499",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T21:53:54.201964",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 0,
+      "total_customers": 0
+    },
+    {
+      "timestamp": "2026-05-01T21:54:24.326264",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 1,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T21:54:54.449061",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 1,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T21:55:24.705934",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 1,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T21:55:54.861433",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 1,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T21:56:25.028048",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 1,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T21:56:55.207173",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 1,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T21:57:25.222694",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 1,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T21:57:55.305474",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 1,
+      "total_customers": 1
+    },
+    {
+      "timestamp": "2026-05-01T21:58:13.429373",
+      "entered": 0,
+      "exited": 0,
+      "inside": 0,
+      "chair_count": 1,
+      "total_customers": 1
+    }
+  ]
+}

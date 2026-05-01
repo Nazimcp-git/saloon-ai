@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Salon AI Monitoring System — Real-time customer analytics dashboard">
+    <title>Salon AI — Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <!-- ─── Header ─── -->
+    <header class="header">
+        <div class="header-left">
+            <div class="logo">
+                <span class="logo-icon">◉</span>
+                <h1>Salon AI</h1>
+            </div>
+            <span class="header-badge">Monitoring System</span>
+        </div>
+        <div class="header-right">
+            <span class="status-dot" id="statusDot"></span>
+            <span class="status-text" id="statusText">Connecting...</span>
+            <span class="clock" id="clock"></span>
+        </div>
+    </header>
+
+    <!-- ─── Main Content ─── -->
+    <main class="dashboard">
+
+        <!-- ── Stats Cards ── -->
+        <section class="stats-grid" id="statsGrid">
+            <div class="stat-card stat-card--primary">
+                <div class="stat-card__icon">👥</div>
+                <div class="stat-card__content">
+                    <span class="stat-card__value" id="totalToday">0</span>
+                    <span class="stat-card__label">Total Customers Today</span>
+                </div>
+                <div class="stat-card__trend" id="totalTrend"></div>
+            </div>
+
+            <div class="stat-card stat-card--accent">
+                <div class="stat-card__icon">🏪</div>
+                <div class="stat-card__content">
+                    <span class="stat-card__value" id="inStore">0</span>
+                    <span class="stat-card__label">Currently In-Store</span>
+                </div>
+                <div class="stat-card__badge">LIVE</div>
+            </div>
+
+            <div class="stat-card stat-card--success">
+                <div class="stat-card__icon">📥</div>
+                <div class="stat-card__content">
+                    <span class="stat-card__value" id="entries">0</span>
+                    <span class="stat-card__label">Entries</span>
+                </div>
+            </div>
+
+            <div class="stat-card stat-card--warning">
+                <div class="stat-card__icon">📤</div>
+                <div class="stat-card__content">
+                    <span class="stat-card__value" id="exits">0</span>
+                    <span class="stat-card__label">Exits</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── Charts Section ── -->
+        <section class="charts-section">
+            <div class="chart-container">
+                <div class="chart-header">
+                    <h2>Hourly Traffic</h2>
+                    <span class="chart-date" id="chartDate"></span>
+                </div>
+                <canvas id="hourlyChart"></canvas>
+            </div>
+
+            <div class="info-panel">
+                <div class="info-panel__header">
+                    <h2>System Info</h2>
+                </div>
+                <div class="info-panel__body">
+                    <div class="info-row">
+                        <span class="info-label">Status</span>
+                        <span class="info-value" id="systemStatus">—</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Last Update</span>
+                        <span class="info-value" id="lastUpdate">—</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Persons in Frame</span>
+                        <span class="info-value" id="personsInFrame">0</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Date</span>
+                        <span class="info-value" id="currentDate">—</span>
+                    </div>
+                </div>
+
+                <div class="info-panel__actions">
+                    <button class="btn btn--danger" id="resetBtn" title="Reset today's counters">
+                        ↻ Reset Counters
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── Captures Section ── -->
+        <section class="captures-section" style="margin-top: 2rem;">
+            <div class="chart-header" style="display: flex; justify-content: space-between; align-items: center;">
+                <h2>Recent Customer Captures</h2>
+                <input type="date" id="captureDateFilter" style="background: #1e293b; color: #f8fafc; border: 1px solid #334155; padding: 0.25rem 0.5rem; border-radius: 4px; font-family: 'Inter', sans-serif;">
+            </div>
+            <div id="capturesGrid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                <!-- Images will be injected here via JS -->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ─── Footer ─── -->
+    <footer class="footer">
+        <p>Salon AI Monitoring System &mdash; Lightweight • Modular • Production-Ready</p>
+    </footer>
+
+    <!-- ─── Scripts ─── -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+
+</body>
+</html>

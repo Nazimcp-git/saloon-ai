@@ -1,0 +1,14 @@
+# Salon AI Monitoring System — Dependencies
+# ==========================================
+# Install: pip install -r requirements.txt
+
+# Core AI & Vision
+ultralytics>=8.0.0          # YOLOv8 detection
+opencv-python>=4.8.0        # Video processing + GUI display
+numpy>=1.24.0               # Numerical operations
+
+# Dashboard
+flask>=3.0.0                # Web server for dashboard
+
+# Optional: Firebase (uncomment to enable)
+# firebase-admin>=6.0.0     # Firestore cloud storage
